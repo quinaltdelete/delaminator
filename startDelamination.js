@@ -62,7 +62,7 @@ function startBinauralBeat() {
         { oscillator: rightOscillator, gain: rightGain }
     ];
     
-    // Optional: Make it more weird by slowly modulating the frequencies
+    // Slowly modulate the frequencies
     let time = 0;
     const modulation = setInterval(() => {
         time += 0.1;
@@ -532,7 +532,7 @@ function showRandomContent() {
     const randomIcon = getRandomItem(icons);
     const randomText = getRandomItem(texts);
 
-    // Update icon - using innerHTML as a workaround
+    // Update icon 
     const iconContainer = document.getElementById('display-area');
     const existingIcon = document.getElementById('random-icon');
     if (existingIcon) {
@@ -551,7 +551,7 @@ function showRandomContent() {
     // Update text
     textElement.textContent = randomText;
     
-    // Play audio (commented out for testing)
+    // Play audio
     const audioElement = document.getElementById('random-audio');
     const randomAudio = getRandomItem(audios);
     audioElement.src = randomAudio;

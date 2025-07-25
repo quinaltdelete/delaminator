@@ -36,7 +36,8 @@ const words = [
     'out to lunch', 'returning soon', 'avoid at all costs', 'return to sender', 'home',
     'violent', 'innocent', 'turn back', 'continue at low speed', 'buy', 'sell',
     'delete', 'sensitive topic', 'not safe for work', 'appropriate for all ages',
-    'self destruct', 'save for later', 'for immediate use', 'do not get in eyes', 'wash thoroughly'
+    'self destruct', 'save for later', 'for immediate use', 'do not get in eyes', 'wash thoroughly',
+    'do not consume', 'hospital', 'common', 'mandatory', 'warning', 'safe', 'shelter'
 ];
 
 async function generateAudio() {
