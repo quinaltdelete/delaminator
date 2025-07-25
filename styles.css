@@ -81,6 +81,20 @@ h1 {
     justify-content: center;
 }
 
+/* Notice styling */
+.notice {
+    text-align: center;
+    margin: -1rem 0 2rem 0;
+}
+
+.notice p {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 14px;
+    color: #8d8d8d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 button {
     background-color: #000000;
     color: #18ad18;
